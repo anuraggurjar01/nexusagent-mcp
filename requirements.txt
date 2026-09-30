@@ -1,0 +1,30 @@
+# NexusAgent MCP - Production Dependencies
+# ========================================
+
+# Core LangGraph framework
+langgraph>=0.2.0
+
+# LangChain MCP adapters (bridges MCP tools into LangChain/LangGraph)
+langchain-mcp-adapters>=0.1.0
+
+# LangChain OpenAI integration
+langchain-openai>=0.3.0
+
+# LangChain core
+langchain>=0.3.0
+
+# Model Context Protocol (MCP) Python SDK
+mcp[cli]>=1.2.0
+
+# OpenAI Python SDK
+openai>=1.0.0
+
+# Async HTTP client (required by MCP)
+httpx>=0.27.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Interactive Web Dashboard
+streamlit>=1.35.0
+
